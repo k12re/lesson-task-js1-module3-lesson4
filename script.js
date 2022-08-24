@@ -19,11 +19,7 @@ getElephants();
 const API_URL2 = "https://mashape-community-urban-dictionary.p.rapidapi.com/define?term=wat";
 
 const options = {
-  method: "GET",
-  //url: "https://mashape-community-urban-dictionary.p.rapidapi.com/define",
-  //params: { term: "wat" },
   headers: {
-    "X-RapidAPI-Host": "mashape-community-urban-dictionary.p.rapidapi.com",
     "X-RapidAPI-Key": "a78a279fa2msh01ad676b0168516p12616bjsnc5a6c250f184",
   },
 };
